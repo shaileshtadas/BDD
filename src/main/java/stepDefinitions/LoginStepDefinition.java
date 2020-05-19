@@ -67,10 +67,10 @@ public class LoginStepDefinition {
 	@Then("^add new contact$")
 	public void add_new_contact() {
 		
-		/*js = (JavascriptExecutor) driver;
-		WebElement new_contact = driver.findElement(By.xpath("//a[@href='/contacts/new']"));
-		js.executeScript("arguments[0].click();",new_contact );*/
-		driver.findElement(By.xpath("//a[@href='/contacts/new']")).click();
+		js = (JavascriptExecutor) driver;
+		WebElement new_contact = driver.findElement(By.xpath("//a[@href='/contacts/new']/button"));
+		js.executeScript("arguments[0].click();",new_contact );
+		//driver.findElement(By.xpath("//a[@href='/contacts/new']/button")).click();
 		System.out.println("clicked on new contact");
 	}
 
@@ -80,7 +80,7 @@ public class LoginStepDefinition {
 		driver.findElement(By.xpath("//*[@name='first_name']")).sendKeys(fname);
 		driver.findElement(By.xpath("//*[@name='last_name']")).sendKeys(lname);
 		driver.findElement(By.xpath("//*[@name='position']")).sendKeys(position);
-		driver.findElement(By.xpath("//*[@class='save icon']")).click();
+		driver.findElement(By.xpath("//*[@class='save icon']/..")).click();
 	}
 
 

@@ -158,14 +158,14 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_Free_CRM_page()"
 });
 formatter.result({
-  "duration": 23583544300,
+  "duration": 7093381600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_page_is_free_crm()"
 });
 formatter.result({
-  "duration": 21885000,
+  "duration": 14802200,
   "status": "passed"
 });
 formatter.match({
@@ -178,7 +178,7 @@ formatter.match({
   "location": "LoginStepDefinition.enter_user(String)"
 });
 formatter.result({
-  "duration": 486706000,
+  "duration": 252484700,
   "status": "passed"
 });
 formatter.match({
@@ -191,35 +191,35 @@ formatter.match({
   "location": "LoginStepDefinition.enter_pass(String)"
 });
 formatter.result({
-  "duration": 264465000,
+  "duration": 232691200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_login_button()"
 });
 formatter.result({
-  "duration": 191822300,
+  "duration": 44634900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_on_login_page()"
 });
 formatter.result({
-  "duration": 19482100,
+  "duration": 4499600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.click_on_contact()"
 });
 formatter.result({
-  "duration": 5149029400,
+  "duration": 5109143300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.add_new_contact()"
 });
 formatter.result({
-  "duration": 298399800,
+  "duration": 63945800,
   "status": "passed"
 });
 formatter.match({
@@ -240,8 +240,8 @@ formatter.match({
   "location": "LoginStepDefinition.submit_contact_details_and_save(String,String,String)"
 });
 formatter.result({
-  "duration": 3073206400,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name\u003d\u0027first_name\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027STADAS01\u0027, ip: \u002710.249.176.226\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\stadas\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:1980}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 8ddd804a1fba2fb264020d556a2e7d30\n*** Element info: {Using\u003dxpath, value\u003d//*[@name\u003d\u0027first_name\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.LoginStepDefinition.submit_contact_details_and_save(LoginStepDefinition.java:80)\r\n\tat ✽.Then submit contact details \"shailesh\" and \"tadas\" and \"manager\" and save(/Users/stadas/Documents/My workspaces/Cucumber-leraning/CucumberBDDProject/src/main/java/Features/Login.feature:11)\r\n",
+  "duration": 3055125000,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@name\u003d\u0027first_name\u0027]\"}\n  (Session info: chrome\u003d81.0.4044.138)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027STADAS01\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\\Users\\stadas\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:2422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 16b39c46edee5700d32b206fe567c41e\n*** Element info: {Using\u003dxpath, value\u003d//*[@name\u003d\u0027first_name\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.LoginStepDefinition.submit_contact_details_and_save(LoginStepDefinition.java:80)\r\n\tat ✽.Then submit contact details \"shailesh\" and \"tadas\" and \"manager\" and save(/Users/stadas/Documents/My workspaces/Cucumber-leraning/CucumberBDDProject/src/main/java/Features/Login.feature:11)\r\n",
   "status": "failed"
 });
 });
